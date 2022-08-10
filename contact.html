@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="hieght=device-hieght, initial-scale=1.0">
+    <link rel = "icon" href = "pinkfl.jpg" type = "image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <title>contact us</title>
+    <style>
+        body{
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topnav{
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #b33b72;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 27px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #bf6b99;
+    color: white;
+}
+        .heading {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .contact .row form{
+            
+            padding:2rem 19.5rem;
+            
+        }
+
+        .contact .row form .box{
+            padding:1rem;
+            font-size: 1rem;
+            color:#333;
+            text-transform: none;
+            border:.1rem solid rgba(0,0,0,.1);
+            border-radius: .5rem;
+            margin:.7rem 0;
+            width: 700px;
+        }
+
+        .contact .row form .box:focus{
+            border-color: pink;
+        }
+
+        .contact .row form textarea{
+            height: 8rem;
+            resize: none;
+        }
+        .contact .row form .btn {
+            padding:1rem;
+            font-size: 1rem;
+            color:#333;
+            text-transform: none;
+            border:.1rem solid rgba(0,0,0,.1);
+            border-radius: 3rem;
+            margin:.7rem 0;
+            background-color: hotpink;
+            size: 5rem;
+
+        }
+
+        .contact .row form .btn:hover{
+            background-color: #68114e;
+            color: ivory;
+        }
+    </style>
+</head>
+<body background="pinkbg.jpg">
+    <div class="topnav">
+        <a class="active" href="MyWebsite.html">Home</a>
+    </div>
+    <section class="contact" id="contact">
+        
+        <h1 class="heading"> <span> contact </span> us </h1>
+    
+        <div class="row">
+    
+            <form action="">
+                <input type="text" placeholder="Name" class="box"><br>
+                <input type="email" placeholder="E-mail" class="box"><br>
+                <textarea name="" class="box" placeholder="Any suggestion" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <input type="submit" value="Submit" class="btn" id="btn" >
+            </form>
+    
+        </div>
+    
+    </section>
+</body>
+</html>
